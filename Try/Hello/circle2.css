@@ -1,0 +1,123 @@
+body {
+  background-image: url("image/ipags.jpg");
+  background-size: cover;
+}
+
+
+.front:hover {
+	filter: opacity(50%);
+	cursor: pointer;
+}
+
+.msuiit {
+	position: fixed;
+	top: 2%;
+	left: 18%;
+	color: White;
+	text-shadow: 1px 3px 3px Black;
+	font-size: 180px;
+	font-family: 'Italiana', sans-serif;
+	margin-bottom: 0px;
+}
+
+hr {
+	position: fixed;
+	top: 28%;
+	left: 10%;
+	width: 80%;
+	text-shadow: 1px 3px 3px Black;
+}
+
+.circle {
+	position: fixed;
+	top: 28%;
+	left: 25%;
+	color: White;
+	font-size: 70px;
+	font-style: bold;
+	text-shadow: 1px 1px 1px Black;
+	font-family: 'Amatic SC', cursive;
+	font-style: Bold;
+}
+
+#inModal {
+	position: fixed;
+	top: 20%;
+}
+
+#header {
+	background-color: DarkRed;
+}
+
+.modal-dialog {
+	border-radius: 10px;
+}
+
+h1 {
+	text-align: center;
+	color: White !important;
+	letter-spacing: 3px;
+	font-family: 'Amatic SC', cursive !important;
+}
+
+h6 {
+	text-align: center;
+	color: White !important;
+	text-shadow: 1px 1px 1px Black;
+}
+
+._in {
+	position: fixed;
+	border: solid 1px Gray;
+	left: 30%;
+	padding: 0.5% 1.5% 0.5% 0%;
+	border-radius: 5px;
+}
+
+.btn {
+	background-color: Maroon;
+	color: White;
+	position: fixed;
+	top: 62%;
+	left: 30%;
+	width: 38%;
+
+}
+
+.btn:hover {
+	background-color: White;
+	color: Maroon !important;
+	border: solid 1px Maroon;
+}
+
+.glyphicon {
+	color: Maroon;
+	text-shadow: 1px 2px 2px Black;
+	font-size: 18px;
+}
+
+input {
+	border: none;
+}
+
+input:focus {
+	outline: none;
+}
+
+.pwdin {
+	top: 50%;
+}
+
+.modal-body {
+	height: 38%;
+}
+
+#signup {
+	position: fixed;
+	top: 83%;
+	left: 35%;
+}
+
+._input {
+	display: inline-block;
+}

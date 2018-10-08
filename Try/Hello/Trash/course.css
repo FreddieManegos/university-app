@@ -1,0 +1,178 @@
+body {
+	background-color: White;
+}
+
+nav {
+	background-color: Maroon;
+	color: White;
+	display: inline;
+}
+
+i {
+	color: Maroon;
+	padding: 0.1em;
+	font-size: 20px;
+}
+
+input {
+	border: none;
+	padding: 0.3em;
+}
+
+input:focus {
+	outline: none;
+}
+
+#myiit_logo {
+	position: fixed;
+	left: 7%;
+	margin-top: 0.7em;
+	box-shadow: 1px 1px 3px Black;
+	-moz-box-shadow: 1px 1px 3px Black;
+	-webkit-box-shadow: 1px 1px 3px Black;
+}
+
+#search {
+	margin-left: -11px;
+}
+
+.search {
+	position: fixed;
+	left: 80%;
+	margin-top: 0.5em;
+	padding: 0.3em;
+	display: inline;
+	background-color: White;
+	border: solid 1px Gray;
+	border-radius: 5px;
+	color: Black;
+	height: 35px;
+	box-shadow: 1px 1px 3px Black;
+	-moz-box-shadow: 1px 1px 3px Black;
+	-webkit-box-shadow: 1px 1px 3px Black;
+}
+
+.glyph {
+	position: fixed;
+	right: 7%;
+	margin-top: 0.5em;
+	padding: 0.3em;
+	display: inline;
+}
+
+._user {
+	color: White;
+	margin: 2px;
+	font-size: 24px;
+}
+
+._user:hover {
+	filter: opacity(50%) !important;
+	text-decoration: none;
+}
+
+.icon {
+	color: White !important;
+	letter-spacing: 6px;
+}
+
+b {
+	font-size: 18px;
+}
+.content {
+	position: fixed;
+	top: 10%;
+	left: 7%;
+	width: 86%;
+	height: 680px;
+	background-color: White;
+}
+
+.course_details {
+	background-color: #ccb;
+	width: 72%;
+	height: 135px;
+	color: Black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: inline-block;
+	padding: 0.5em;
+	text-align: justify;
+	text-justify: inter-word;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	box-shadow: 1px 1px 3px Black;
+	-moz-box-shadow: 1px 1px 3px Black;
+	-webkit-box-shadow: 1px 1px 3px Black;
+
+}
+
+#navbar_announce, #navbar_mem,
+#navbar_disc, #navbar_rate {
+	padding: 0.8em;
+	border-radius: 5px 5px 0 0;
+}
+
+.announcements {
+	background-color: #ccb;
+	overflow: auto-scroll;
+	width: 27%;
+	position: absolute;
+	left: 73%;
+	height: 513px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px Black;
+	-moz-box-shadow: 1px 1px 3px Black;
+	-webkit-box-shadow: 1px 1px 3px Black;
+
+
+}
+
+.members {
+	background-color: #ccb;
+	overflow: auto-scroll;
+	position: absolute;
+	top: 22%;
+	width: 23%;
+	height: 530px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px Black;
+	-moz-box-shadow: 1px 1px 3px Black;
+	-webkit-box-shadow: 1px 1px 3px Black;
+}
+
+.discussion {
+	background-color: #ccc;
+	overflow: auto-scroll;
+	position: relative;
+	top: 22%;
+	left: 24%;
+	width: 48%;
+	height: 530px;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px Black;
+	-moz-box-shadow: 1px 1px 3px Black;
+	-webkit-box-shadow: 1px 1px 3px Black;
+}
+
+.disc, .rate {
+	background-color: Gray !important;
+	background-filter: opacity(70%);
+	border-radius: 5px 5px 0 0;
+	padding: 0.8em;
+	color: Maroon !important;
+}
+
+.ratings {
+	background-color: #ccc;
+	width: 27%;
+	height: 150px;
+	position: absolute;
+	left: 73%;
+	top: 77.7%;
+	border-radius: 5px;
+	box-shadow: 1px 1px 3px Black;
+	-moz-box-shadow: 1px 1px 3px Black;
+	-webkit-box-shadow: 1px 1px 3px Black;
+}

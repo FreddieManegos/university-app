@@ -1,0 +1,153 @@
+body {
+  background-image: url("image/lead.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.front:hover {
+	filter: opacity(50%);
+	cursor: pointer;
+}
+
+.front {
+	text-shadow: 1px 3px 3px Black;
+	color: White;
+	position: fixed;
+	top: 25%;
+	left: 17.5%;
+}
+
+.msuiit {
+	font-size: 180px;
+	font-family: 'Italiana', sans-serif;
+	color: White;
+	text-shadow: 1px 3px 3px Black;
+	line-height: 60%;
+}
+
+hr {
+	width: 100%;
+	text-shadow: 1px 3px 3px Black;
+}
+
+.circle {
+	font-size: 60px;
+	font-style: bold;
+	font-family: 'Amatic SC', cursive;
+	font-style: Bold;
+	text-align: center;
+	text-shadow: 1px 3px 3px Black;
+}
+
+#inModal, #upModal{
+	position: fixed;
+	top: 20%;
+}
+
+.modal-header {
+	background-color: DarkRed !important;
+	border-radius: 5px 5px 0 0;
+}
+
+h1 {
+	text-align: center;
+	color: White !important;
+	letter-spacing: 3px;
+	font-family: 'Amatic SC', cursive !important;
+}
+
+h2 {
+	color: Maroon !important;
+	text-align: center;
+	text-shadow: 1px 3px 3px Black;
+	background-color: White;
+	display: inline-block;
+	position: absolute;
+
+}
+
+h6 {
+	text-align: center;
+	color: White !important;
+	text-shadow: 1px 1px 1px Black;
+}
+
+
+._in {
+	position: relative;
+	display: inline-block;
+	margin-left: 13em;
+	border-radius: 5px;
+	padding: 0.5em;
+}
+
+.pwdin, .usein {
+	border: solid 1px Gray;
+	padding: 0.5em;
+}
+
+.btnin {
+	position: relative;
+	margin-left: 12em;
+	width: 100%;
+	display: inline-block;
+}
+
+.btnup {
+	position: relative;
+	display: inline-block;
+	margin-left: 2.25em;
+	padding: 0.5em;
+	border-radius: 5px;
+	width: 97%;
+}
+._up {
+	position: relative;
+	display: inline-block;
+	margin-left: 2.25em;
+	padding: 0.5em;
+	border: solid 1px Gray;
+	border-radius: 5px;
+}
+
+.btn {
+	background-color: Maroon;
+	color: White;
+	position: relative;
+	display: inline-block;
+	box-shadow: 1px 3px 3px Gray;
+}
+
+.btn:hover {
+	background-color: White;
+	color: Maroon !important;
+	border: solid 1px Maroon;
+	box-shadow: 1px 3px 3px Black;
+}
+
+.other {
+	text-align: center;
+	position: relative;
+	display: block;
+	margin-top: 0px;
+}
+
+.glyphicon {
+	color: Maroon;
+	text-shadow: 1px 2px 2px Black;
+	font-size: 18px;
+}
+
+input {
+	border: none;
+	display: inline-block;
+}
+
+input:focus {
+	outline: none;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: none !important;
+}

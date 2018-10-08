@@ -1,0 +1,257 @@
+body {
+  background-image: url("http://www.gulfoflex.com/images/large/bg.jpg");
+  background-repeat: no-repeat;
+}
+.navbar-fixed-top {
+  background: linear-gradient(-10deg, DarkRed, Black);
+  width: 100%;
+  height: 150px;
+  box-shadow: 0px 3px 0px Black;
+}
+
+.navbar-header {
+  display: inline-block;
+  text-align: center;
+}
+
+.img-responsive{
+  height: auto;
+  width: auto;
+  max-width: 150px;
+  max-height: 150px;
+  position: absolute;
+  left: 6%;
+}
+
+img[src="/Users/HP/Desktop/-/MSU-IIT Student Social/msuiit_seal.png"] {
+  -webkit-filter: drop-shadow(1px 1px 1px #FFF);
+  filter: drop-shadow(1px 1px 1px #FFF);
+}
+
+#msu{
+  color: White;
+  text-shadow: 0px 3px 3px Black;
+  font-size: 90px;
+  position: absolute;
+  top: 1%;
+  left: 19%;
+  font-family: Serif;
+}
+
+#iit {
+  color: White;
+  font-size: 30px;
+  text-shadow: 0px 3px 3px Black;
+  position: absolute;
+  top: 62%;
+  left: 19.3%;
+}
+
+#portal {
+  color: #FFB800;
+  font-size: 60px;
+  text-shadow: 0px 3px 3px Black;
+  font-family: 'Miniver', cursive;
+  position: absolute;
+  top: 47%;
+  left: 58%;
+}
+
+#loginbox {
+  background-color: PaleGoldenRod;
+  width: 400px;
+  height: 350px;
+  position: absolute;
+  top: 27.5%;
+  left: 7.5%;
+  border-radius: 15px;
+  box-shadow: 3px 5px 5px Black;
+  dispaly: block;
+  text-align: center;
+}
+
+#login-header {
+  background-color: DarkRed;
+  color: White;
+  font-weight: Bold;
+  font-family: 'Lucida Sans';
+  border-radius: 12px 12px 0px 0px;
+  text-align: left;
+  padding: 5px 0px 5px 10px;
+  text-shadow: 1px 3px 3px Black;
+  font-size: 25px;
+  box-shadow: 2px 0px 0px Black;
+}
+
+input {
+  width: 80%;
+  padding: 3px;
+  border: none;
+  background: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+#stdid, #pwd{
+  box-shadow: 1px 3px 3px Gray;
+  border-radius: 7px;
+  width: 60%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: Gray;
+  padding: 2px 3px 3px 3px;
+}
+
+#stdid {
+  position: absolute;
+  top: 25%;
+  left: 19%;
+}
+
+#pwd {
+  position: absolute;
+  top: 43%;
+  left: 19%;
+}
+
+i {
+  color: Maroon;
+  padding: 5px 3px 3px 3px;
+  font-size: 22px;
+  text-shadow: 1px 3px 3px Gray;
+}
+
+button {
+  background-color: Maroon;
+  border: none;
+  border-radius: 4px;
+  width: 100%;
+  box-shadow: 1px 3px 3px Black;
+}
+#login-btn {
+  color: White;
+  position: absolute;
+  top: 63%;
+  left: 42%;
+  font-size: 20px; 
+}
+
+#frgt {
+  position: absolute;
+  top: 78%;
+  left: 28%;
+}
+
+.w3-display-container {
+  width: 750px;
+  height: 350px;
+  max-width: 750px;
+  max-height: 350px;
+  position: absolute;
+  top: 27.5%;
+  left: 38%;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 3px 5px 5px Black;
+}
+
+img[src="/Users/HP/Desktop/-/MSU-IIT Student Social/ipag.jpg"] {
+  position: absolute;
+  top: -15%;
+}
+
+img[src="/Users/HP/Desktop/-/MSU-IIT Student Social/fablab.jpg"] {
+  position: absolute;
+  top: -30%;
+}
+
+.text {
+  color: White;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  text-shadow: 1px 3px 3px Black;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: White;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  text-shadow: 1px 3px 3px Black;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  text-decoration: none;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.navbar-fixed-bottom {
+  background: linear-gradient(10deg, DarkRed, Black);
+  width: 100%;
+  height: 100px;
+  box-shadow: 0px -3px 0px Black;
+}
+
+
+img[src="/Users/HP/Desktop/-/MSU-IIT Student Social/myiit.gif"] {
+  -webkit-filter: drop-shadow(1px 1px 1px Yellow);
+  filter: drop-shadow(1px 2px 3px Yellow);
+  position: absolute;
+  top: 100%;
+  left: 21%;
+}
+
+#myiit {
+  position: absolute;
+  top: 40%;
+  right: 15%;
+  padding: 5px;
+  font-size: 15px;
+  color: LightGrey;
+  text-shadow: 1px 3px 3px Black;
+  display: inline-block;
+  font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+#address {
+  color: Gray;
+  -webkit-column-count: 5; /* Chrome, Safari, Opera */
+  -moz-column-count: 5; /* Firefox */
+  column-count: 5;
+  font-size: 12px;
+  position: absolute;
+  top: 3%;
+  left: 7%;
+}

@@ -1,0 +1,80 @@
+
+
+<html>
+  <head>
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" type="text/css" href="C:\xampp\htdocs\UniversityApp\login2.css">
+    <link rel="shortcut icon" type="image/x-icon" href="C:\xampp\htdocs\UniversityApp\image\msuiit_tab_icon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed|Miniver" rel="stylesheet">
+    <link rel="stylesheet" href="C:\xampp\htdocs\UniversityApp\bootstrap.min.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-fixed-top">
+      <div class="navbar-header">
+        <img id="seal" class="img-responsive" src="C:\xampp\htdocs\UniversityApp\image\msuiit_seal.png">
+         <div id="msu" class="navbar-header">Mindanao State University</div>
+         <div id="iit" class="navbar-header">ILIGAN INSTITUTE OF TECHNOLOGY</div>
+         <div id="portal" class="navbar-header">Student Portal 2.0</div> 
+      </div>
+    </nav>
+    <div class="container">
+      <div id="loginbox">
+        <div id="login-header">Log in</div>
+        <div class="login-form"><form>
+          <br><p id="stdid"><input name="stdid" type="text" placeholder="Student ID"><i class="glyphicon glyphicon-user"></i></p>
+          <p id="pwd"><input name="pwd" type="password" placeholder="Password"><i class="glyphicon glyphicon-lock"></i></p>
+        </form></div>
+        <div id="login-btn"><button type="button">Log in</button></div>
+        <div id="frgt"><a href="#">Forgot password?</a><br><p><a href="#">Sign up</a> if not yet registered.</p></div>
+      </div>
+      <div class="w3-content w3-display-container">
+        <div class="mySlides">
+          <div class="numbertext">1 / 3</div>
+          <img src="C:\xampp\htdocs\UniversityApp\image\ipag.jpg" style="width:100%">
+          <div class="text">Picture 1</div>
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">2 / 3</div>
+          <img src="C:\xampp\htdocs\UniversityApp\image\ideya.jpg" style="width:100%">
+          <div class="text">Picture 2</div>
+        </div>
+        <div class="mySlides">
+          <div class="numbertext">3 / 3</div>
+          <img src="C:\xampp\htdocs\UniversityApp\image\fablab.jpg" style="width:100%">
+          <div class="text">Picture 3</div>
+        </div>
+        <a class="prev" onclick="plusDivs(-1)">&#10094;</a>
+        <a class="next" onclick="plusDivs(1)">&#10095;</a>
+      </div>
+  </div>
+    <nav class="navbar navbar-fixed-bottom">
+      <div id="myiit"><a href="https://x4150idp.msuiit.edu.ph/sso/module.php/core/loginuserpass.php?AuthState=_319ada097c06e446dfc96eb71775457b9f0ff9bbb9%3Ahttp%3A%2F%2Fx4150idp.msuiit.edu.ph%2Fsso%2Fsaml2%2Fidp%2FSSOService.php%3Fspentityid%3Dhttps%253A%252F%252Fx4150my.msuiit.edu.ph%252Fsso%252Fmodule.php%252Fsaml%252Fsp%252Fmetadata.php%252Fdefault-sp%26RelayState%3Dhttps%253A%252F%252Fx4150my.msuiit.edu.ph%252Fmy%252Findex.php"><img src="C:\xampp\htdocs\UniversityApp\image\myiit.gif"></a></div>
+      <div id="address">
+        <p>MSU-Iligan Institute of Technology</br>Andres Bonifacio Avenue, Tibanga, 9200 Iligan City, Philippines<br>Telephone: +63.63.221.4056 | +63.63.492.1173<br>Facsimile: +63.63.351.6173<br>Copyright © 2017-2018. All Rights Reserved.<br>For site-related comments, send them to</br>aniedoza@gmail.com<br>
+Web Development Team<br>IITNet Usage Policy | Usage Terms and Conditions
+Disclaimer | Privacy and Security Policy<br>
+Internet Copyright Notice</p>
+      </div>
+    </nav>
+    
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {slideIndex = 1} 
+        if (n < 1) {slideIndex = x.length} ;
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none"; 
+        }
+        x[slideIndex-1].style.display = "block"; 
+      }
+</script>
+
+  </body>
+</html>
+
